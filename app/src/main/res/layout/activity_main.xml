@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textViewEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Edad del Elector" />
+
+    <EditText
+        android:id="@+id/editTextEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewEdad"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textViewInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextNumElectors"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewInstructions"
+        android:layout_marginTop="49dp"
+        android:hint="Numero de Electores" />
+
+    <Button
+        android:id="@+id/btnCantidatoA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        android:text="Votar" />
+
+    <Button
+        android:id="@+id/btnCantidatoB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="357dp"
+        android:text="Votar" />
+
+    <Button
+        android:id="@+id/btnCantidatoC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="528dp"
+        android:text="Votar" />
+
+    <TextView
+        android:id="@+id/textViewVotosTotales1"
+        android:layout_width="53dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/editTextEdad"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/textViewVotosTotales2"
+        android:layout_width="53dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/editTextEdad"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="243dp"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/textViewVotosTotales3"
+        android:layout_width="53dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/editTextEdad"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="425dp"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/textViewResultado1"
+        android:layout_width="216dp"
+        android:layout_height="54dp"
+        android:layout_below="@id/editTextEdad"
+        android:layout_marginTop="528dp"
+        android:text="" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="39dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="131dp"
+        app:srcCompat="@drawable/captura" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="33dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="301dp"
+        app:srcCompat="@drawable/captura1" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="34dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="471dp"
+        app:srcCompat="@drawable/captura2" />
+
+
+</RelativeLayout>
